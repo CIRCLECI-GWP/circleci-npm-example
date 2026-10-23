@@ -1,15 +1,21 @@
 {
-  "name": "circleci-npm-packagecloud-test",
+  "name": "@your-npm-username/circleci-npm-example",
   "version": "0.1.0",
-  "description": "Test package for CircleCI 2.0 + packagecloud",
+  "description": "Example npm package that CircleCI tests and publishes with npm trusted publishing",
   "main": "hello.js",
+  "files": [
+    "hello.js"
+  ],
   "scripts": {
-    "main": "node index.js",
     "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CIRCLECI-GWP/circleci-npm-example.git"
   },
   "author": "Armando Canals",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^22.2.1"
+    "jest": "^30.5.2"
   }
 }
