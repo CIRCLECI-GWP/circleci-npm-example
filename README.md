@@ -1,7 +1,7 @@
 # circleci-npm-example
 
 Example npm package for the CircleCI tutorial
-[Publishing npm packages with CircleCI](https://circleci.com/blog/publishing-npm-packages-using-circleci-2-0/).
+[Publishing npm packages with CircleCI](https://circleci.com/blog/publishing-npm-packages-with-circleci/).
 
 CircleCI tests every commit. When you push a version tag such as `v0.1.1`, it
 publishes the package to npm with
